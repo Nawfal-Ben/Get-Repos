@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.user-input {
+    width: 90%;
+    max-width: 1000px;
+    background-color: #f6f6f6;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.user-input input {
+    border: none;
+    flex: 1;
+    font-size: 20px;
+    padding: 5px;
+}
+.user-input input:focus {
+    outline: 2px solid #ff612f;
+}
+.user-input button {
+    border: none;
+    background-color: #ff612f;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.user-input button:hover {
+    background-color: #f74f1c;
+}
+.repos {
+    background-color: #eee;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+.repo {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.stars {
+    background-color: #007a8a;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.repo a {
+    background-color: rgb(255, 74, 97);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
